@@ -1,0 +1,104 @@
+/**index.wxss**/
+
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+/*登录图片*/
+
+.login-icon {
+  flex: none;
+}
+
+.login-img {
+  width: 100%;
+}
+
+/*表单内容*/
+
+.login-from {
+  margin-top: 22px;
+  flex: auto;
+  height: 100%;
+}
+
+.inputView {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+/*输入框*/
+
+.nameImage, .keyImage {
+  margin-left: 20px;
+  margin-top: 3px;
+  margin-right: 5px;
+  width: 14px;
+  height: 14px;
+}
+
+.loginLab {
+  color: #545454;
+  font-size: 14px;
+  width: 40px;
+}
+
+.inputText {
+  margin-left: 15px;
+  text-align: left;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 1px;
+}
+
+/*按钮*/
+
+.loginBtnView {
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.loginBtn {
+  width: 80%;
+  margin-top: 35px;
+}
+
+.registerBtn {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  border: none !important;
+  text-decoration: underline;
+  color: blue !important;
+}
+.getBackPassBtn {
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  border: none !important;
+  text-decoration: underline;
+  color: gray !important;
+}

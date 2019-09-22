@@ -1,0 +1,19 @@
+<!--pages/videoList/videoList.wxml-->
+<scroll-view scroll-y >
+  <block wx:for="{{records}}" wx:key="fileName">
+    <view wx:if="{{item.filetype == 1}}">
+      <image bindtap='preViewImg' data-list="{{imgurls}}" data-src="{{item.largefilepath}}" mode='scaleToFill' style="width:50px; height:50px; background-color: #eeeeee;" src='https://time.mytime.net.cn/{{item.filepath}}'>
+      </image> {{item.regdate}}
+    </view>
+    <view wx:elif="{{item.filetype == 3}}">
+      <image mode='scaleToFill' style="width:50px; height:50px; background-color: #eeeeee;" src='https://www.mytime.net.cn/res/file_mp4.png'>
+      </image> {{item.regdate}}
+    </view>
+     <view wx:elif="{{item.filetype == 2}}">
+      <image mode='scaleToFill' style="width:50px; height:50px; background-color: #eeeeee;" src='https://www.mytime.net.cn/res/file_audio.png'>
+      </image> {{item.regdate}}
+    </view>
+    <view wx:else>{{item.regdate}}</view>
+
+  </block>
+</scroll-view>

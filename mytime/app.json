@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/video/videorecord",
+    "pages/videoList/videoList",
+    "pages/register/register",
+    "pages/calendar/calendarGroup",
+    "pages/calendar/classify",
+    "pages/index/getpassword"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFAF4F",
+    "navigationBarTitleText": "lna",
+    "navigationBarTextStyle": "white"
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

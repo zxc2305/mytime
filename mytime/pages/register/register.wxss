@@ -1,0 +1,12 @@
+.container-hang {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff; 
+}
+input{
+  font-size: 13px;
+}
+text{
+   font-size: 13px;
+   color:blue;
+}
